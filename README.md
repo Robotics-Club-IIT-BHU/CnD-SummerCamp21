@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
- <img  width="400" height="600" src="https://github.com/Raghav-Soni/Control-And-Dynamics/raw/master/CONTROLS%20AND%20DYNAMICS.png">
+ <img  width="400" height="600" src="https://github.com/Robotics-Club-IIT-BHU/CnD-SummerCamp-2021/raw/master/CONTROLS%20AND%20DYNAMICS.png">
 </p>
 
 # Welcome to the Controls And Dynamics Camp
