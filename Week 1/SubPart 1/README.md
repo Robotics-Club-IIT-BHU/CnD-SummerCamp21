@@ -138,7 +138,8 @@ Let's get started. First things first
 2. `pip install controlpy`
 3. `pip install gym`
 4. `pip install scipy`
-Read the documentation for control  [here](https://pypi.org/project/control/) and for gym [here](https://gym.openai.com/docs/)
+
+Read the documentation for controlpy  [here](https://github.com/markwmuller/controlpy) and for gym [here](https://gym.openai.com/docs/)
 For pybullet errors refer [here](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2021/tree/main/Basics%20of%20pyBullet/Week%201/Subpart%201)
 
 ## Verification
