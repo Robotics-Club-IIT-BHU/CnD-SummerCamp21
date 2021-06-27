@@ -122,7 +122,7 @@ There are surplus material available to learn this in-depth but for  the light w
 
 **Note:** This series is just for learning the theory, no need to worry about using Matlab as shown in the videos.
 
-## References
+## References - Not a part of the content, just for people very interested in control and have some time to spare.
 
 - **Control Theory** YouTube Playlist **by Brian Douglas**:
 
@@ -135,17 +135,11 @@ There are surplus material available to learn this in-depth but for  the light w
 Let's get started. First things first 
 
 1. `pip install numpy`
-2. `pip install slycot `
-3. `pip install control`
+3. `pip install controlpy`
 4. `pip install gym`
 
-Read the documentation for control  [here](https://pypi.org/project/control/) and for gym [here](https://gym.openai.com/docs/)
+Read the documentation for control  [here](https://github.com/markwmuller/controlpy/tree/master/examples) and for gym [here](https://gym.openai.com/docs/)
 
-Note : If you face any issue while installing slycot in Ubuntu
-
-`sudo apt install libopenblas-dev`
-
-`pip install slycot`
 
 Also upgrade to latest numpy `pip install numpy --upgrade`
 
@@ -157,10 +151,10 @@ Run this sample code to verify if everything is working
 
 ```
 import gym
-import control
+import controlpy
 import numpy as np
 import pybullet_data
-import control
+import pybullet as p
 
 env = gym.make('CartPole-v0')
 env.reset()
