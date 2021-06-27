@@ -135,20 +135,10 @@ There are surplus material available to learn this in-depth but for  the light w
 Let's get started. First things first 
 
 1. `pip install numpy`
-2. `pip install slycot `
-3. `pip install control`
-4. `pip install gym`
-
+2. `pip install controlpy`
+3. `pip install gym`
+4. `pip install scipy`
 Read the documentation for control  [here](https://pypi.org/project/control/) and for gym [here](https://gym.openai.com/docs/)
-
-Note : If you face any issue while installing slycot in Ubuntu
-
-`sudo apt install libopenblas-dev`
-
-`pip install slycot`
-
-Also upgrade to latest numpy `pip install numpy --upgrade`
-
 For pybullet errors refer [here](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2021/tree/main/Basics%20of%20pyBullet/Week%201/Subpart%201)
 
 ## Verification
@@ -157,10 +147,9 @@ Run this sample code to verify if everything is working
 
 ```
 import gym
-import control
+import controlpy
 import numpy as np
 import pybullet_data
-import control
 
 env = gym.make('CartPole-v0')
 env.reset()
