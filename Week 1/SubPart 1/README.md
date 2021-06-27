@@ -151,6 +151,7 @@ import gym
 import controlpy
 import numpy as np
 import pybullet_data
+import scipy
 
 env = gym.make('CartPole-v0')
 env.reset()
