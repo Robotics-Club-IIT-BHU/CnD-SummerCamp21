@@ -61,6 +61,12 @@ desired_state = 3             #This is the desired state that we want the drone 
 
 t=0
 while(True):
+    if t == 0:
+        p.configureDebugVisualizer(p.COV_ENABLE_GUI,0)
+        p.resetDebugVisualizerCamera(cameraDistance=3.5,
+                                    cameraYaw= 0,
+                                    cameraPitch= 0,
+                                    cameraTargetPosition = [0.0,0.0,desired_state] )
     k=cv2.waitKey(1)        #This is written to make the taskbars operate in real time
     keycode = p.getKeyboardEvents()       #Getting the keyboard events through PyBullet
     if keycode.get(p.B3G_RETURN) == 1:        #If ENTER key is pressed then the simulation executes
