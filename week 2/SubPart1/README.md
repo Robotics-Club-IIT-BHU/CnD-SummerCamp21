@@ -48,7 +48,7 @@ You can easily solve it using newton's laws of motion but we prefer to solve thi
 Now, from the video you can infer that we can write the dynamics equation for the given system in the form of
 
 <p align="center">
-<img  width="70" height="40" src="assets/mass_eq.png">
+<img  width="150" height="80" src="assets/mass_eq.png">
  <p align="center"> 
 </p>
 
