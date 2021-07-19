@@ -12,7 +12,7 @@ Let's dig a little deeper into the controls and dynamics together this week. We 
 A system (say a robot or anything that you want to control) whose dynamics can be represented as a differential equation of the form 
 
 <p align="center">
-<img  width="100" height="50" src="assets/linear.png">
+<img  width="200" height="100" src="assets/linear.png">
  <p align="center">
  <i>The equation defines how system is changing with repect to the current state of the system.</i><br> 
 </p>
@@ -70,7 +70,7 @@ Well, most systems are pretty complex and it is not possible to represent them i
 **Non-linear systems** have a non-linear relation between the current state and the change of state. The differential equation representing a non-linear equation can be written as - 
 
 <p align="center">
-<img  width="80" height="50" src="assets/non_lin.png">
+<img  width="200" height="" src="assets/non_lin.png">
  <p align="center">
  <i>Here, f(x) is a non linear function.</i><br> 
 </p>
@@ -80,7 +80,7 @@ Non-linear systems are hard to control and hence it helps if we can approximate 
 There are only some fixed states in the system about which you can linearize your non-linear system. These states are called fixed states and these can be found by the equation
 
 <p align="center">
-<img  width="120" height="80" src="assets/fixPt.png">
+<img  width="200" height="150" src="assets/fixPt.png">
  <p align="center">
  <i></i><br> 
 </p>
@@ -98,7 +98,7 @@ Now, to linearize about the fixed state, first we need to find the jacobian matr
 So the above equation, when written in a matrix form, assuming there are two state variables x1 and x2 would be represented as - 
 
 <p align="center">
-<img  width="200" height="120" src="assets/non_linM.png">
+<img  width="300" height="180" src="assets/non_linM.png">
  <p align="center">
  <i></i><br> 
 </p>
@@ -106,7 +106,7 @@ So the above equation, when written in a matrix form, assuming there are two sta
 The jacobian for this will be given as - 
 
 <p align="center">
-<img  width="200" height="120" src="assets/jacob.png">
+<img  width="300" height="180" src="assets/jacob.png">
  <p align="center">
  <i></i><br> 
 </p>
@@ -114,7 +114,7 @@ The jacobian for this will be given as -
 Then, finally to linearise a system about a fixed point, we put in the **fixed state** variables in the jacobian to get A matrix
 
 <p align="center">
-<img  width="200" height="120" src="assets/a_mat.png">
+<img  width="300" height="180" src="assets/a_mat.png">
  <p align="center">
  <i></i><br> 
 </p>
@@ -122,7 +122,7 @@ Then, finally to linearise a system about a fixed point, we put in the **fixed s
 Now, we can write our non-linear system as an approximated linear system about the state x(bar) represented by the equation - 
 
 <p align="center">
-<img  width="100" height="50" src="assets/linear.png">
+<img  width="200" height="100" src="assets/linear.png">
  <p align="center">
  <i></i><br> 
 </p>
@@ -145,7 +145,7 @@ To proceed further we need some idea about eigen values and eigen vectors. So re
  <i>Congratulations on completing SubPart - 1</i><br> 
 </p>
 
-# Task 
+# Game Time
 
 <p align="center">
 <img  width="" height="" src="assets/meme4.gif">
