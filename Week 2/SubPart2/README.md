@@ -187,7 +187,7 @@ This fully actuated system is clearly controllable because x1 and x2 may be inde
 
 Now you are ready for Did You Get Control? - Part 4
 Here is the link - 
-[Did You Get The Control? - Part 4]()
+[Did You Get The Control? - Part 4](https://forms.gle/VTWDbMSut3sC3e5i8)
 
 ## Further Readings - Extras
 1. [The PBH test for controllability](https://youtu.be/0XJHgLrcPeA)
