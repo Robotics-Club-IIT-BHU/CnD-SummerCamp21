@@ -43,7 +43,7 @@ Inside the MPC are the system equations of the plant called the **plant model**.
 The main optimization problem for a MPC is as follows. 
 
 <p align="center">
-<img width="530" height = "222" src="assets\optimization problem.png">
+<img width="600" height = "" src="assets\mpc_opt.jpg">
  <p align="center">
  <i></i><br>
 </p>
